@@ -107,6 +107,7 @@ Para determinar si un número es par o impar deberás utilizar el operador módu
     int impares = 0;
 
     for(int i=0; i<arreglo5.length; i++){
+        System.out.println("El numero es: "+arreglo5[i]);
 
         if(arreglo5[i] % 2 == 0){
             pares++;
@@ -116,8 +117,8 @@ Para determinar si un número es par o impar deberás utilizar el operador módu
 
     }
 
-    System.out.println("Pares: "+pares);
-    System.out.println("Impares: "+impares);
+    System.out.println("Los numeros pares son: "+pares);
+    System.out.println("Los numeros impares son: "+impares);
 
 }
         public static void main(String[] args) throws Exception {
